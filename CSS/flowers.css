@@ -96,7 +96,6 @@ nav .categories {
     justify-content: space-between;
 }
 
-.search,
 .cart {
     margin-left: 15px;
     font-size: 20px;
@@ -532,9 +531,9 @@ nav .categories {
     }
     nav {
         height: 8vh;
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 0rem;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
     .nav-link .logo {
@@ -573,7 +572,7 @@ nav .categories {
     }
     .hero-center {
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
     }
     .hero-left {
         margin-top: 10%;
